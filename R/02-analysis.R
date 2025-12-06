@@ -8,6 +8,8 @@ library(dplyr)
 library(purrr)
 library(locfdr)
 
+set.seed(632961)
+
 # parse command-line arguments for optional parameters
 N_CORES <- 30
 LOG <- TRUE
