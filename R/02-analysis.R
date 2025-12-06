@@ -78,9 +78,6 @@ comparisons <- list(
   c("control_m", "MCI_m"),
   c("control_f", "MCI_f"),
   c("MCI_m", "MCI_f"),
-  c("control_m", "MCI_m"),
-  c("control_f", "MCI_f"),
-  c("MCI_m", "MCI_f"),
   c("MCI_or_dementia_healthy_BMI", "MCI_or_dementia_overweight"),
   c("control_healthy_BMI", "control_overweight"),
   c("all_healthy_BMI", "all_overweight"),
@@ -444,6 +441,7 @@ for (cmp in comparisons) {
     text_gap_frac     = -0.3,
     stat              = "Z"
   )
+  print(p_forest_unc)
   dev.off()
 
   CairoSVG(file.path(out_dir, "DELTA_framework", "BHcorrected_significant_static_forestplot.svg"), dpi = 300,
@@ -461,6 +459,7 @@ for (cmp in comparisons) {
     text_gap_frac     = -0.3,
     stat              = "Z"
   )
+  print(p_forest_bh)
   dev.off()
 
   p_inter <- forest_delta_plotly(
