@@ -14,9 +14,7 @@ packages <- c(
 )
 
 ## load development version of phiper
-devtools::load_all("/home/noxia/Documents/R/phiper")
-#devtools::install_github("Polymerase3/phiper", force = TRUE)
-# library(phiper)
+library(phiper)
 
 # Install packages not yet installed
 installed_packages <- packages %in% rownames(installed.packages())
@@ -32,7 +30,6 @@ invisible(lapply(packages, library, character.only = TRUE))
 font_add_google("Montserrat", "monte")
 phip_use_montserrat()
 showtext_auto()
-
 
 # removing unnecessary variables
 rm(list = c('installed_packages', 'packages'))
