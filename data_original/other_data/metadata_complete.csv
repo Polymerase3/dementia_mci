@@ -1,0 +1,111 @@
+sample_id,type_person,sex,age,Ethnicity,Race,BMI,SPPB high or low,control,MCI,dementia,MCI_or_dementia,MCI_or_dementia_m,MCI_or_dementia_f,control_m,control_f,all_m,all_f,MCI_or_dementia_healthy_BMI,MCI_or_dementia_unhealthy_BMI,MCI_or_dementia_overweight,control_healthy_BMI,control_unhealthy_BMI,control_overweight,all_healthy_BMI,all_unhealthy_BMI,all_overweight,MCI_overweight_m,MCI_overweight_f,control_overweight_m,control_overweight_f,MCI_overweight,MCI_m,MCI_f,SPPB_high,SPPB_low,control_SPPB_high,control_SPPB_low,MCI_SPPB_high,MCI_SPPB_low,MCI_or_dementia_SPPB_high,MCI_or_dementia_SPPB_low
+R14P02_77_FAU0001_ADMCI_NED_A_T_C2,Controls,Female,83,NOT Hispanic or Latino,White,underweight,-,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+R14P02_74_FAU0002_ADMCI_NED_A_T_C2,Controls,Female,67,NOT Hispanic or Latino,White,healthy weight,-,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+R19P04_14_MG0213_ADMCI_NED_A_T_C2,Controls,Male,61,NOT Hispanic or Latino,White,obese,-,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+R19P04_65_FAU0015_ADMCI_NED_A_T_C2,MCI,Female,88,NOT Hispanic or Latino,White,obese,-,0,1,0,1,0,1,0,0,0,1,0,1,1,0,0,0,0,1,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0
+R19P03_78_MG0222_ADMCI_NED_A_T_C2,Controls,Male,63,NOT Hispanic or Latino,White,obese,-,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+R19P04_57_FAU0030_ADMCI_NED_A_T_C2,MCI,Male,63,NOT Hispanic or Latino,White,obese,-,0,1,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+R19P04_66_FAU0033_ADMCI_NED_A_T_C2,MCI,Male,64,NOT Hispanic or Latino,White,obese,-,0,1,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+R19P04_56_FAU0044_ADMCI_NED_A_T_C2,MCI,Male,64,NOT Hispanic or Latino,White,healthy weight,-,0,1,0,1,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+R19P04_54_MG0023_ADMCI_NED_A_T_C2,MCI,Female,68,Unknown / Not Reported,White,healthy weight,low,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1
+R19P03_74_MG0031_ADMCI_NED_A_T_C2,Controls,Female,80,NOT Hispanic or Latino,White,healthy weight,low,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
+R19P04_72_MG0032_ADMCI_NED_A_T_C2,MCI,Male,68,NOT Hispanic or Latino,White,obese,low,0,1,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,0,0,0,1,0,1
+R19P04_05_MG0047_ADMCI_NED_A_T_C2,Controls,Female,73,NOT Hispanic or Latino,White,healthy weight,low,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
+R19P04_75_MG0148_AL1_ADMCI_NED_A_T_C2,Dementia,Male,74,NOT Hispanic or Latino,White,healthy weight,low,0,0,1,1,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+R19P04_63_MG0067_ADMCI_NED_A_T_C2,MCI,Female,78,Hispanic or Latino,Unknown / Not Reported,-,low,0,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1
+R19P04_64_MG0070_ADMCI_NED_A_T_C2,MCI,Female,75,NOT Hispanic or Latino,Asian,healthy weight,high,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0
+R19P03_68_MG0085_ADMCI_NED_A_T_C2,Controls,Female,65,NOT Hispanic or Latino,White,obese,low,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0
+R19P03_75_MG0090_ADMCI_NED_A_T_C2,Controls,Female,74,NOT Hispanic or Latino,White,overweight,-,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+R19P03_66_MG0094_ADMCI_NED_A_T_C2,Controls,Female,70,NOT Hispanic or Latino,White,healthy weight,high,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+R19P03_67_MG0098_ADMCI_NED_A_T_C2,Controls,Female,62,Hispanic or Latino,White,healthy weight,high,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+R14P02_80_MG0112_ADMCI_NED_A_T_C2,Controls,Female,77,NOT Hispanic or Latino,White,healthy weight,low,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
+R19P04_61_MG0114_ADMCI_NED_A_T_C2,MCI,Female,73,NOT Hispanic or Latino,White,overweight,low,0,1,0,1,0,1,0,0,0,1,0,1,1,0,0,0,0,1,1,0,1,0,0,1,0,1,0,1,0,0,0,1,0,1
+R19P03_63_MG0116_ADMCI_NED_A_T_C2,Controls,Female,69,NOT Hispanic or Latino,White,healthy weight,high,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+R19P03_65_MG0118_ADMCI_NED_A_T_C2,Controls,Female,65,NOT Hispanic or Latino,White,overweight,high,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0
+R14P02_78_MG0186_ADMCI_NED_A_T_C2,Controls,Male,67,NOT Hispanic or Latino,White,healthy weight,high,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+R19P03_76_MG0125_ADMCI_NED_A_T_C2,Controls,Female,77,NOT Hispanic or Latino,White,overweight,high,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0
+R19P04_28_MG0126_ADMCI_NED_A_T_C2,MCI,Female,71,NOT Hispanic or Latino,White,healthy weight,high,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0
+R19P03_64_MG0127_ADMCI_NED_A_T_C2,Controls,Female,76,NOT Hispanic or Latino,White,healthy weight,high,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+R19P04_62_MG0129_ADMCI_NED_A_T_C2,MCI,Male,90,NOT Hispanic or Latino,White,overweight,high,0,1,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,1,1,1,0,0,0,1,1,0,1,0,0,0,1,0,1,0
+R19P04_44_MG0132_ADMCI_NED_A_T_C2,MCI,Male,65,NOT Hispanic or Latino,White,healthy weight,low,0,1,0,1,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1
+R19P04_45_MG0137_ADMCI_NED_A_T_C2,MCI,Male,61,NOT Hispanic or Latino,White,overweight,high,0,1,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,1,1,1,0,0,0,1,1,0,1,0,0,0,1,0,1,0
+R19P03_73_MG0138_ADMCI_NED_A_T_C2,Controls,Female,81,NOT Hispanic or Latino,White,obese,high,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0
+R19P04_46_MG0143_ADMCI_NED_A_T_C2,MCI,Female,68,Hispanic or Latino,White,healthy weight,high,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0
+R19P04_48_MG0144_ADMCI_NED_A_T_C2,MCI,Male,90,Hispanic or Latino,White,healthy weight,low,0,1,0,1,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1
+R19P04_47_MG0146_ADMCI_NED_A_T_C2,MCI,Female,70,NOT Hispanic or Latino,Black or African American,obese,low,0,1,0,1,0,1,0,0,0,1,0,1,1,0,0,0,0,1,1,0,1,0,0,1,0,1,0,1,0,0,0,1,0,1
+R19P04_38_MG0147_ADMCI_NED_A_T_C2,MCI,Male,85,NOT Hispanic or Latino,White,healthy weight,low,0,1,0,1,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1
+R19P04_11_MG0153_ADMCI_NED_A_T_C2,Controls,Male,68,NOT Hispanic or Latino,White,obese,low,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0
+R19P03_69_MG0149_ADMCI_NED_A_T_C2,Controls,Female,87,Hispanic or Latino,Unknown / Not Reported,-,low,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
+R19P04_51_MG0151_ADMCI_NED_A_T_C2,MCI,Male,79,NOT Hispanic or Latino,White,overweight,high,0,1,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,1,1,1,0,0,0,1,1,0,1,0,0,0,1,0,1,0
+R19P04_16_MG0123_ADMCI_NED_A_T_C2,Controls,Male,69,NOT Hispanic or Latino,White,overweight,low,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0
+R19P03_70_MG0154_ADMCI_NED_A_T_C2,Controls,Female,61,NOT Hispanic or Latino,White,underweight,low,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
+R19P03_72_MG0155_ADMCI_NED_A_T_C2,Controls,Female,76,NOT Hispanic or Latino,White,overweight,high,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0
+R19P04_74_MG0156_AL1_ADMCI_NED_A_T_C2,Dementia,Female,88,NOT Hispanic or Latino,Asian,obese,low,0,0,1,1,0,1,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+R19P04_12_MG0239_ADMCI_NED_A_T_C2,Controls,Male,71,NOT Hispanic or Latino,White,healthy weight,high,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+R15P02_71_MG0162_AL1_ADMCI_NED_A_T_C2,Dementia,Female,79,Unknown / Not Reported,Black or African American,obese,high,0,0,1,1,0,1,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+R19P04_31_MG0163_ADMCI_NED_A_T_C2,MCI,Female,87,NOT Hispanic or Latino,White,underweight,low,0,1,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1
+R19P04_39_MG0166_ADMCI_NED_A_T_C2,MCI,Female,78,NOT Hispanic or Latino,White,underweight,low,0,1,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1
+R19P04_27_MG0167_ADMCI_NED_A_T_C2,MCI,Female,82,NOT Hispanic or Latino,White,overweight,low,0,1,0,1,0,1,0,0,0,1,0,1,1,0,0,0,0,1,1,0,1,0,0,1,0,1,0,1,0,0,0,1,0,1
+R19P04_73_MG0168_AL1_ADMCI_NED_A_T_C2,Dementia,Male,81,NOT Hispanic or Latino,White,overweight,low,0,0,1,1,1,0,0,0,1,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+R19P04_24_MG0178_ADMCI_NED_A_T_C2,MCI,Female,79,NOT Hispanic or Latino,White,healthy weight,high,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0
+R19P04_36_MG0179_ADMCI_NED_A_T_C2,MCI,Male,59,NOT Hispanic or Latino,White,healthy weight,high,0,1,0,1,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0
+R19P04_33_MG0181_ADMCI_NED_A_T_C2,MCI,Male,78,NOT Hispanic or Latino,White,obese,high,0,1,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,1,1,1,0,0,0,1,1,0,1,0,0,0,1,0,1,0
+R14P02_73_MG0185_ADMCI_NED_A_T_C2,Controls,Female,70,NOT Hispanic or Latino,White,overweight,high,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0
+R19P04_18_MG0227_ADMCI_NED_A_T_C2,Controls,Male,72,NOT Hispanic or Latino,White,overweight,low,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0
+R19P04_25_MG0187_ADMCI_NED_A_T_C2,MCI,Male,70,NOT Hispanic or Latino,White,overweight,high,0,1,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,1,1,1,0,0,0,1,1,0,1,0,0,0,1,0,1,0
+R14P02_79_MG0189_ADMCI_NED_A_T_C2,Controls,Female,70,NOT Hispanic or Latino,White,obese,low,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0
+R14P02_72_MG0191_ADMCI_NED_A_T_C2,Controls,Female,79,NOT Hispanic or Latino,White,overweight,low,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0
+R14P02_71_MG0193_ADMCI_NED_A_T_C2,Controls,Female,68,NOT Hispanic or Latino,White,healthy weight,high,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+R19P04_40_MG0194_ADMCI_NED_A_T_C2,MCI,Male,78,NOT Hispanic or Latino,White,overweight,low,0,1,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,0,0,0,1,0,1
+R19P04_52_MG0203_ADMCI_NED_A_T_C2,MCI,Female,78,NOT Hispanic or Latino,White,healthy weight,low,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1
+R19P04_41_MG0205_ADMCI_NED_A_T_C2,MCI,Male,78,NOT Hispanic or Latino,White,healthy weight,low,0,1,0,1,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1
+R19P04_37_MG0206_ADMCI_NED_A_T_C2,MCI,Female,66,NOT Hispanic or Latino,White,obese,high,0,1,0,1,0,1,0,0,0,1,0,1,1,0,0,0,0,1,1,0,1,0,0,1,0,1,1,0,0,0,1,0,1,0
+R19P04_43_MG0207_ADMCI_NED_A_T_C2,MCI,Male,74,NOT Hispanic or Latino,White,healthy weight,low,0,1,0,1,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1
+R19P04_10_MG0210_ADMCI_NED_A_T_C2,Controls,Female,79,NOT Hispanic or Latino,White,healthy weight,low,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
+R19P04_53_MG0212_ADMCI_NED_A_T_C2,MCI,Other,25,NOT Hispanic or Latino,White,obese,low,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1
+R19P04_17_MG0245_ADMCI_NED_A_T_C2,Controls,Male,72,NOT Hispanic or Latino,White,healthy weight,high,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+R19P04_15_MG0214_ADMCI_NED_A_T_C2,Controls,Female,73,NOT Hispanic or Latino,White,overweight,high,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0
+R19P04_19_MG0215_ADMCI_NED_A_T_C2,Controls,Female,69,NOT Hispanic or Latino,White,healthy weight,high,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+R19P04_49_MG0216_ADMCI_NED_A_T_C2,MCI,Female,71,NOT Hispanic or Latino,White,overweight,low,0,1,0,1,0,1,0,0,0,1,0,1,1,0,0,0,0,1,1,0,1,0,0,1,0,1,0,1,0,0,0,1,0,1
+R19P03_77_MG0234_ADMCI_NED_A_T_C2,Controls,Male,74,NOT Hispanic or Latino,White,overweight,low,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0
+R19P04_04_MG0219_ADMCI_NED_A_T_C2,Controls,Female,70,NOT Hispanic or Latino,White,overweight,low,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0
+R19P04_60_MG0220_ADMCI_NED_A_T_C2,MCI,Female,61,NOT Hispanic or Latino,White,healthy weight,high,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0
+R19P04_01_MG0221_ADMCI_NED_A_T_C2,Controls,Female,49,NOT Hispanic or Latino,White,obese,high,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0
+R19P04_20_MG0161_ADMCI_NED_A_T_C2,Controls,Male,75,NOT Hispanic or Latino,White,obese,low,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0
+R19P04_13_MG0223_ADMCI_NED_A_T_C2,Controls,Female,48,NOT Hispanic or Latino,White,obese,low,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0
+R19P04_42_MG0224_ADMCI_NED_A_T_C2,MCI,Male,61,NOT Hispanic or Latino,White,healthy weight,high,0,1,0,1,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0
+R19P04_03_MG0226_ADMCI_NED_A_T_C2,Controls,Female,88,NOT Hispanic or Latino,White,healthy weight,low,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
+R19P04_08_MG0217_ADMCI_NED_A_T_C2,Controls,Male,75,NOT Hispanic or Latino,White,healthy weight,high,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+R19P04_50_MG0230_ADMCI_NED_A_T_C2,MCI,Female,78,NOT Hispanic or Latino,White,healthy weight,low,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1
+R19P03_79_MG0231_ADMCI_NED_A_T_C2,Controls,Female,67,NOT Hispanic or Latino,White,overweight,low,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0
+R19P04_07_MG0233_ADMCI_NED_A_T_C2,Controls,Female,52,NOT Hispanic or Latino,White,overweight,high,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0
+R14P02_75_FAU0021_ADMCI_NED_A_T_C2,Controls,Male,81,NOT Hispanic or Latino,White,obese,low,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0
+R19P04_21_MG0237_ADMCI_NED_A_T_C2,Controls,Female,60,NOT Hispanic or Latino,White,healthy weight,low,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
+R19P04_02_MG0238_ADMCI_NED_A_T_C2,Controls,Female,74,NOT Hispanic or Latino,White,healthy weight,low,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
+R19P04_06_MG0243_ADMCI_NED_A_T_C2,Controls,Male,81,NOT Hispanic or Latino,White,obese,low,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0
+R19P04_09_MG0240_ADMCI_NED_A_T_C2,Controls,Female,72,NOT Hispanic or Latino,White,healthy weight,high,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+R19P04_77_MG0241_AL1_ADMCI_NED_A_T_C2,Dementia,Female,74,NOT Hispanic or Latino,White,healthy weight,low,0,0,1,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+R14P02_76_FAU0011_ADMCI_NED_A_T_C2,Controls,Male,83,NOT Hispanic or Latino,White,obese,-,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+R19P03_71_MG0048_ADMCI_NED_A_T_C2,Controls,Male,84,NOT Hispanic or Latino,White,healthy weight,high,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+R19P03_80_MG0248_ADMCI_NED_A_T_C2,Controls,Female,80,NOT Hispanic or Latino,White,overweight,low,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0
+R19P04_55_MG0249_ADMCI_NED_A_T_C2,MCI,Male,77,NOT Hispanic or Latino,White,overweight,low,0,1,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,0,0,0,1,0,1
+R19P04_32_MG0250_ADMCI_NED_A_T_C2,MCI,Female,64,NOT Hispanic or Latino,African American,healthy weight,high,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0
+R19P04_34_MG0273_ADMCI_NED_A_T_C2,MCI,Female,71,Unknown / Not Reported,White,overweight,low,0,1,0,1,0,1,0,0,0,1,0,1,1,0,0,0,0,1,1,0,1,0,0,1,0,1,0,1,0,0,0,1,0,1
+R15P02_69_MG0277_AL1_ADMCI_NED_A_T_C2,Dementia,Female,77,NOT Hispanic or Latino,White,healthy weight,low,0,0,1,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+R19P04_76_MG0279_AL1_ADMCI_NED_A_T_C2,Dementia,Male,69,NOT Hispanic or Latino,White,healthy weight,low,0,0,1,1,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+R19P04_79_MJH2004_AL1_ADMCI_NED_A_T_C2,Dementia,Female,76,Hispanic or Latino,White,healthy weight,-,0,0,1,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+R19P04_80_MJH2007_AL1_ADMCI_NED_A_T_C2,Dementia,Male,83,NOT Hispanic or Latino,African American,overweight,-,0,0,1,1,1,0,0,0,1,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+R15P02_70_MJH2015_AL1_ADMCI_NED_A_T_C2,Dementia,Female,78,NOT Hispanic or Latino,White,healthy weight,-,0,0,1,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+R19P04_78_UCF0022_AL1_ADMCI_NED_A_T_C2,Dementia,Male,82,NOT Hispanic or Latino,N/A,-,-,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+R15P02_75_UCF0079_AL1_ADMCI_NED_A_T_C2,Dementia,Female,98,NOT Hispanic or Latino,White,obese,-,0,0,1,1,0,1,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+R15P02_74_UCF0081_AL1_ADMCI_NED_A_T_C2,Dementia,Female,79,NOT Hispanic or Latino,White,healthy weight,-,0,0,1,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+R15P02_72_UCF0087_AL1_ADMCI_NED_A_T_C2,Dementia,Female,91,Hispanic or Latino,White,overweight,-,0,0,1,1,0,1,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+R15P02_73_UCF0088_AL1_ADMCI_NED_A_T_C2,Controls,NA,NA,NA,NA,-,-,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+R19P04_22_UCF0093_ADMCI_NED_A_T_C2,Dementia,Female,70,NOT Hispanic or Latino,White,healthy weight,-,0,0,1,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+R19P04_67_UNF5001_ADMCI_NED_A_T_C2,MCI,Female,75,NOT Hispanic or Latino,White,healthy weight,-,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+R19P04_68_UNF5003_ADMCI_NED_A_T_C2,MCI,Female,74,NOT Hispanic or Latino,White,obese,-,0,1,0,1,0,1,0,0,0,1,0,1,1,0,0,0,0,1,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0
+R19P04_58_UNF5010_ADMCI_NED_A_T_C2,MCI,Female,72,NOT Hispanic or Latino,White,healthy weight,-,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+R19P04_59_UNF5025_ADMCI_NED_A_T_C2,MCI,Male,78,NOT Hispanic or Latino,White,healthy weight,-,0,1,0,1,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+R19P04_69_UNF5029_ADMCI_NED_A_T_C2,MCI,Male,84,NOT Hispanic or Latino,White,obese,-,0,1,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+R19P04_70_UNF5038_ADMCI_NED_A_T_C2,MCI,Male,92,NOT Hispanic or Latino,White,obese,-,0,1,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+R19P04_71_UNF5043_ADMCI_NED_A_T_C2,MCI,Male,82,NOT Hispanic or Latino,White,obese,-,0,1,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
