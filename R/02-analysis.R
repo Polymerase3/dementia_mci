@@ -152,7 +152,8 @@ for (cmp in comparisons) {
   # ------------------ enrichment counts ------------------
   CairoSVG(file.path(out_dir, "enrichment_counts.svg"), dpi = 300,
            height = 30, width = 40, unit = "cm", bg = "white")
-  p_enrich <- plot_enrichment_counts(ps_cmp, group_cols = "group_char") +
+  p_enrich <- plot_enrichment_counts(ps_cmp, group_cols = "group_char",
+                                     prevalence_threshold = 0.07) +
     theme(text = element_text(family = "DejaVu Sans"))
   print(p_enrich)
   dev.off()
@@ -289,6 +290,9 @@ for (cmp in comparisons) {
 
   dir.create(file.path(out_dir, "POP_framework"), recursive = TRUE, showWarnings = FALSE)
 
+  data_frameworks$group_char <- factor(data_frameworks$group_char,
+                                     levels = cmp)
+
   prev_res_pep <- phiper::ph_prevalence_compare(
     x                 = data_frameworks,
     group_cols        = "group_char",
@@ -328,8 +332,6 @@ for (cmp in comparisons) {
     p_static <- scatter_static(
       df   = df_rank,
       rank = rank_chr,
-      xlab = var1,
-      ylab = var2,
       point_size       = 2,
       jitter_width_pp  = 0.15,
       jitter_height_pp = 0.15,
@@ -347,8 +349,6 @@ for (cmp in comparisons) {
     p_inter <- scatter_interactive(
       df   = df_rank,
       rank = rank_chr,
-      xlab = var1,
-      ylab = var2,
       point_size       = 10,
       jitter_width_pp  = 0.25,
       jitter_height_pp = 0.25,
@@ -499,7 +499,15 @@ for (cmp in comparisons) {
     selfcontained = TRUE
   )
   # ------------------ plot interesting features ---------
-  res_filtered <- dplyr::filter(res, p_perm < 0.05)
+  extra_features <- c("Cytomegalovirus", "Homo sapiens", "Pseudomonas aeruginosa",
+                      "Rhinovirus B", "Enterovirus", "Rhinovirus A", "is_flagellum",
+                      "Streptococcus equinus", "Streptococcus pneumoniae", "Streptococcus",
+                      "Betainfluenzavirus influenzae", "Parabacteroides distasonis",
+                      "Orthoherpesviridae", "Betaproteobacteria")
+
+  res_filtered <- res %>%
+    dplyr::filter(p_perm < 0.05 | feature %in% extra_features)
+
   tax_cols <- intersect(tax_ranks, names(peplib))
 
   special_features <- c(
@@ -563,8 +571,6 @@ for (cmp in comparisons) {
              height = 30, width = 30, unit = "cm", bg = "white")
     p_scatter <- scatter_static(
       df   = feature_data,
-      xlab = group1,
-      ylab = group2,
       point_size       = 2,
       point_alpha      = 0.85,
       jitter_width_pp  = 0.15,
@@ -584,8 +590,6 @@ for (cmp in comparisons) {
     ## ---------------- SCATTER INTERACTIVE ----------------
     p_inter <- scatter_interactive(
       df   = feature_data,
-      xlab = group1,
-      ylab = group2,
       point_size       = 10,
       point_alpha      = 0.85,
       jitter_width_pp  = 0.25,
