@@ -69,22 +69,22 @@ comparisons <- list(
   c("control", "dementia"),
   c("control", "MCI"),
   c("control", "MCI_or_dementia"),
-  c("MCI", "dementia"),
-  c("all_m", "all_f"),
-  c("control_f", "MCI_or_dementia_f"),
-  c("control_m", "MCI_or_dementia_m"),
-  c("MCI_or_dementia_m", "MCI_or_dementia_f"),
-  c("control_m", "control_f"),
-  c("control_m", "MCI_m"),
-  c("control_f", "MCI_f"),
-  c("MCI_m", "MCI_f"),
-  c("MCI_or_dementia_healthy_BMI", "MCI_or_dementia_overweight"),
-  c("control_healthy_BMI", "control_overweight"),
-  c("all_healthy_BMI", "all_overweight"),
-  c("control_overweight", "MCI_or_dementia_overweight"),
-  c("control_overweight_m", "MCI_overweight_m"),
-  c("control_overweight_f", "MCI_overweight_f"),
-  c("control_overweight", "MCI_overweight")
+  c("MCI", "dementia")
+  # c("all_m", "all_f"),
+  # c("control_f", "MCI_or_dementia_f"),
+  # c("control_m", "MCI_or_dementia_m"),
+  # c("MCI_or_dementia_m", "MCI_or_dementia_f"),
+  # c("control_m", "control_f"),
+  # c("control_m", "MCI_m"),
+  # c("control_f", "MCI_f"),
+  # c("MCI_m", "MCI_f"),
+  # c("MCI_or_dementia_healthy_BMI", "MCI_or_dementia_overweight"),
+  # c("control_healthy_BMI", "control_overweight"),
+  # c("all_healthy_BMI", "all_overweight"),
+  # c("control_overweight", "MCI_or_dementia_overweight"),
+  # c("control_overweight_m", "MCI_overweight_m"),
+  # c("control_overweight_f", "MCI_overweight_f"),
+  # c("control_overweight", "MCI_overweight")
 )
 
 # columns always to keep in saved data
@@ -163,9 +163,15 @@ for (cmp in comparisons) {
   dir.create(file.path(out_dir, "alpha_diversity"), recursive = TRUE, showWarnings = FALSE)
   write.xlsx(alpha_div, file.path(out_dir, "alpha_diversity", "table.xlsx"))
 
-  CairoSVG(file.path(out_dir, "alpha_diversity", "plot.svg"), dpi = 300,
+  CairoSVG(file.path(out_dir, "alpha_diversity", "richness.svg"), dpi = 300,
            height = 30, width = 40, unit = "cm", bg = "white")
   p_alpha <- plot_alpha_diversity(alpha_div, metric = "richness", group_col = "group_char")
+  print(p_alpha)
+  dev.off()
+
+  CairoSVG(file.path(out_dir, "alpha_diversity", "shannon.svg"), dpi = 300,
+           height = 30, width = 40, unit = "cm", bg = "white")
+  p_alpha <- plot_alpha_diversity(alpha_div, metric = "shannon", group_col = "group_char")
   print(p_alpha)
   dev.off()
 
@@ -329,9 +335,14 @@ for (cmp in comparisons) {
     } else {
       rank_tbl %>% filter(rank == rank_chr)
     }
+    group1 <- df_rank$group1[1]
+    group2 <- df_rank$group2[2]
+
     p_static <- scatter_static(
       df   = df_rank,
       rank = rank_chr,
+      xlab = group1,
+      ylab = group2,
       point_size       = 2,
       jitter_width_pp  = 0.15,
       jitter_height_pp = 0.15,
@@ -349,6 +360,8 @@ for (cmp in comparisons) {
     p_inter <- scatter_interactive(
       df   = df_rank,
       rank = rank_chr,
+      xlab = group1,
+      ylab = group2,
       point_size       = 10,
       jitter_width_pp  = 0.25,
       jitter_height_pp = 0.25,
@@ -571,6 +584,8 @@ for (cmp in comparisons) {
              height = 30, width = 30, unit = "cm", bg = "white")
     p_scatter <- scatter_static(
       df   = feature_data,
+      xlab = group1,
+      ylab = group2,
       point_size       = 2,
       point_alpha      = 0.85,
       jitter_width_pp  = 0.15,
@@ -590,6 +605,8 @@ for (cmp in comparisons) {
     ## ---------------- SCATTER INTERACTIVE ----------------
     p_inter <- scatter_interactive(
       df   = feature_data,
+      xlab = group1,
+      ylab = group2,
       point_size       = 10,
       point_alpha      = 0.85,
       jitter_width_pp  = 0.25,
