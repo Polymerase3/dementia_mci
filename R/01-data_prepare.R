@@ -72,6 +72,15 @@ dementia <- as.data.frame(dementia)
 # read the metadata
 metadata <- read.csv("data_original/other_data/metadata_complete.csv")
 
+# add the group control_or_MCI
+metadata <- metadata %>%
+  mutate(
+    control_or_MCI = if_else(
+      coalesce(control, 0L) == 1L | coalesce(MCI, 0L) == 1L,
+      1L, 0L
+    )
+  )
+
 # join to the dementia on sampleID
 dementia <- dementia %>%
   left_join(
