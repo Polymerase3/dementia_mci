@@ -66,11 +66,12 @@ get_peptide_library(ps) %>%
 
 # define list of comparisons (pairs of group labels) to analyze
 comparisons <- list(
-  c("control", "dementia"),
-  c("control", "MCI"),
-  c("control", "MCI_or_dementia"),
-  c("MCI", "dementia"),
-  c("control_or_MCI", "dementia")
+  c("MCI", "control_or_dementia")
+  # c("control", "dementia"),
+  # c("control", "MCI"),
+  # c("control", "MCI_or_dementia"),
+  # c("MCI", "dementia"),
+  # c("control_or_MCI", "dementia")
   # c("all_m", "all_f"),
   # c("control_f", "MCI_or_dementia_f"),
   # c("control_m", "MCI_or_dementia_m"),

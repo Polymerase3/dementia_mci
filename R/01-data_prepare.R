@@ -78,6 +78,10 @@ metadata <- metadata %>%
     control_or_MCI = if_else(
       coalesce(control, 0L) == 1L | coalesce(MCI, 0L) == 1L,
       1L, 0L
+    ),
+    control_or_dementia = if_else(
+      coalesce(control, 0L) == 1L | coalesce(dementia, 0L) == 1L,
+      1L, 0L
     )
   )
 
